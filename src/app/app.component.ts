@@ -7,9 +7,4 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "recipe-shop-app";
-  currentPage = "recipes";
-
-  onPageChanged(page) {
-    this.currentPage = page;
-  }
 }
